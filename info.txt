@@ -1,0 +1,4 @@
+https://supabase.com/dashboard/project/cfvywhpbeuvbgersdxar/editor/17472?schema=public
+https://cfvywhpbeuvbgersdxar.supabase.co
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNmdnl3aHBiZXV2YmdlcnNkeGFyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjA3OTQ3NzUsImV4cCI6MjA3NjM3MDc3NX0.KD-gbTy1otZsD_LPMZX0qt3hNgyHm3QGm6wnDyKHzhE
+https://supabase.com/dashboard/org/dxicmkbekufivgivnmvr
