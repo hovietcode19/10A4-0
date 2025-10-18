@@ -2,3 +2,6 @@ https://supabase.com/dashboard/project/cfvywhpbeuvbgersdxar/editor/17472?schema=
 https://cfvywhpbeuvbgersdxar.supabase.co
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNmdnl3aHBiZXV2YmdlcnNkeGFyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjA3OTQ3NzUsImV4cCI6MjA3NjM3MDc3NX0.KD-gbTy1otZsD_LPMZX0qt3hNgyHm3QGm6wnDyKHzhE
 https://supabase.com/dashboard/org/dxicmkbekufivgivnmvr
+https://10-a4-0.vercel.app/
+https://vercel.com/peter-hos-projects-68c1fc8c/10-a4-0
+https://github.com/hovietcode19/10A4-0
