@@ -17,18 +17,24 @@
     </div>
 
     <!-- Music Control -->
-    <div class="music-control">
-        <div class="current-song" id="currentSong">🎵 Đang chọn bài...</div>
-        <select class="song-select" id="songSelect">
-            <option value="assets/sound/Bình Yên - Vũ.mp3">🍂 Bình Yên - Vũ</option>
-            <option value="assets/sound/Cứ Chill Thôi - Chillies.mp3">🍁 Cứ Chill Thôi - Chillies</option>
-            <option value="assets/sound/Lối Nhỏ - Đen Vâu.mp3">🍎 Lối Nhỏ - Đen Vâu</option>
-            <option value="assets/sound/Quá Lâu - Vinh Khuất.mp3">🌸 Quá Lâu - Vinh Khuất</option>
-        </select>
-        <button class="music-btn" id="toggleMusic">⏸️ Tạm dừng</button>
-        <input type="range" class="volume-control" id="volumeControl" min="0" max="100" value="70">
-        <div style="text-align: center; color: #a0724e; font-size: 0.9em; margin-top: 5px;">
-            <span id="volumeText">70%</span>
+    <div class="music-control" id="musicControl">
+        <button class="music-toggle-btn" id="toggleMusicBox" onclick="toggleMusicBox()">
+            <span id="toggleIcon">🎵</span>
+        </button>
+        
+        <div class="music-control-content">
+            <div class="current-song" id="currentSong">🎵 Đang chọn bài...</div>
+            <select class="song-select" id="songSelect">
+                <option value="assets/sound/Bình Yên - Vũ.mp3">🍂 Bình Yên - Vũ</option>
+                <option value="assets/sound/Cứ Chill Thôi - Chillies.mp3">🍁 Cứ Chill Thôi - Chillies</option>
+                <option value="assets/sound/Lối Nhỏ - Đen Vâu.mp3">🍎 Lối Nhỏ - Đen Vâu</option>
+                <option value="assets/sound/Quá Lâu - Vinh Khuất.mp3">🌸 Quá Lâu - Vinh Khuất</option>
+            </select>
+            <button class="music-btn" id="toggleMusic">⏸️ Tạm dừng</button>
+            <input type="range" class="volume-control" id="volumeControl" min="0" max="100" value="70">
+            <div style="text-align: center; color: #ff69b4; font-size: 0.9em; margin-top: 5px;">
+                <span id="volumeText">70%</span>
+            </div>
         </div>
     </div>
 
