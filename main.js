@@ -300,5 +300,14 @@ function closePrivateWishesModal() {
     modal.classList.remove('fade-out');
   }, 300);
 }
-
+// Toggle Music Box Function
+function toggleMusicBox() {
+    const musicControl = document.getElementById('musicControl');
+    const toggleIcon = document.getElementById('toggleIcon');
+    
+    musicControl.classList.toggle('collapsed');
+    
+    // Icon vẫn giữ nguyên là 🎵 khi mở hay đóng
+    // Nếu muốn đổi icon thì có thể thay đổi ở đây
+}
 
