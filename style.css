@@ -700,3 +700,95 @@ body {
 #privateWishesModal.fade-out {
     opacity: 0;
 }
+/* Music Toggle Button Styles */
+.music-control {
+    transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.music-control.collapsed {
+    max-width: 60px !important;
+    padding: 0 !important;
+    border-radius: 50% !important;
+    height: 60px;
+}
+
+.music-control-content {
+    padding: 15px;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.music-control.collapsed .music-control-content {
+    opacity: 0;
+    pointer-events: none;
+    height: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+.music-toggle-btn {
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: linear-gradient(135deg, #ff69b4, #ff85c1);
+    color: #0a0a1a;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 20px;
+    box-shadow: 0 4px 15px rgba(255, 105, 180, 0.4);
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+
+.music-control.collapsed .music-toggle-btn {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.music-toggle-btn:hover {
+    transform: translateX(-50%) scale(1.1);
+    box-shadow: 0 6px 20px rgba(255, 105, 180, 0.6);
+}
+
+.music-control.collapsed .music-toggle-btn:hover {
+    transform: translate(-50%, -50%) scale(1.1);
+}
+
+/* Volume Control Slider Styles */
+.volume-control {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 6px;
+    border-radius: 5px;
+    background: rgba(255, 105, 180, 0.3);
+    outline: none;
+}
+
+.volume-control::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #ff69b4;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(255, 105, 180, 0.5);
+}
+
+.volume-control::-moz-range-thumb {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #ff69b4;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 2px 8px rgba(255, 105, 180, 0.5);
+}
